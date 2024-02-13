@@ -40,13 +40,21 @@ a {
 
 .cta-btn {
     border-radius: 14px;
-    padding: 20px 41px;
+    padding: 19px 40px;
+    border: 1px solid transparent;
     background-color: #1ebfc1;
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.5;
     text-align: center;
     color: #ffffff;
+}
+
+.cta-btn:hover {
+    background-color: #fff;
+    color: #1ebfc1;
+    border-color: currentColor;
+    transition: 0.3s;
 }
 
 .name {
@@ -124,7 +132,8 @@ a {
 
 .header .actions .cta-sign-up:hover {
     transition: 0.3s;
-    background-color: #ddd;
+    background-color: #1ebfc1;
+    color: #fff;
 }
 
 /* ====== Hero ====== */
@@ -162,15 +171,15 @@ a {
 }
 
 .hero .info-block .cta-group {
-    margin-top: 52px;
+    margin-top: 51px;
     display: flex;
     align-items: center;
-    gap: 50px;
 }
 
 .hero .cta-group .play-btn {
     border: none;
     border-radius: 50%;
+    margin-left: 50px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
